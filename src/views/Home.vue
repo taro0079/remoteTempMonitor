@@ -1,8 +1,8 @@
 <template>
-	<div>
-		test
+	<v-container>
+		<div class="text-center">Morita room temperature</div>
 		<chartcontain/>
-	</div>
+	</v-container>
 </template>
 
 <script>
