@@ -27,7 +27,13 @@ export default {
         loaded: false,
         options: {
             responsive: true,
-            maintainAspectRatio: false
+            maintainAspectRatio: false,
+		scales: {
+			XAxes: [{
+				type: 'time',
+				unit: 'minute'
+			}]
+		}
         }
     }),
     async mounted () {
